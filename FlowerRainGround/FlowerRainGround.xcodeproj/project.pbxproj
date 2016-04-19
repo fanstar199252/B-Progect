@@ -15,6 +15,12 @@
 		791DDFE51CC5C14D0029C957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791DDFE31CC5C14D0029C957 /* LaunchScreen.storyboard */; };
 		791DDFF01CC5C14D0029C957 /* FlowerRainGroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DDFEF1CC5C14D0029C957 /* FlowerRainGroundTests.m */; };
 		791DDFFB1CC5C14D0029C957 /* FlowerRainGroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DDFFA1CC5C14D0029C957 /* FlowerRainGroundUITests.m */; };
+		791DE0201CC5D12D0029C957 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DE01F1CC5D12D0029C957 /* BaseModel.m */; };
+		791DE0231CC5D1500029C957 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DE0221CC5D1500029C957 /* BaseTableViewCell.m */; };
+		791DE0261CC5D1730029C957 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DE0251CC5D1730029C957 /* BaseCollectionViewCell.m */; };
+		791DE0291CC5D1980029C957 /* FactoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DE0281CC5D1980029C957 /* FactoryCollectionViewCell.m */; };
+		791DE02C1CC5D1AB0029C957 /* FactoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DE02B1CC5D1AB0029C957 /* FactoryTableViewCell.m */; };
+		791DE02F1CC5D21A0029C957 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DE02E1CC5D21A0029C957 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		791DDFF61CC5C14D0029C957 /* FlowerRainGroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRainGroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		791DDFFA1CC5C14D0029C957 /* FlowerRainGroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowerRainGroundUITests.m; sourceTree = "<group>"; };
 		791DDFFC1CC5C14D0029C957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791DE01E1CC5D12D0029C957 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		791DE01F1CC5D12D0029C957 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		791DE0211CC5D1500029C957 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewCell.h; path = ../../../BaseTableViewCell.h; sourceTree = "<group>"; };
+		791DE0221CC5D1500029C957 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewCell.m; path = ../../../BaseTableViewCell.m; sourceTree = "<group>"; };
+		791DE0241CC5D1730029C957 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		791DE0251CC5D1730029C957 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		791DE0271CC5D1980029C957 /* FactoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryCollectionViewCell.h; sourceTree = "<group>"; };
+		791DE0281CC5D1980029C957 /* FactoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryCollectionViewCell.m; sourceTree = "<group>"; };
+		791DE02A1CC5D1AB0029C957 /* FactoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryTableViewCell.h; sourceTree = "<group>"; };
+		791DE02B1CC5D1AB0029C957 /* FactoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryTableViewCell.m; sourceTree = "<group>"; };
+		791DE02D1CC5D21A0029C957 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		791DE02E1CC5D21A0029C957 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,10 @@
 		791DDFD41CC5C14D0029C957 /* FlowerRainGround */ = {
 			isa = PBXGroup;
 			children = (
+				791DE00A1CC5D0B70029C957 /* Base */,
+				791DE01C1CC5D0B70029C957 /* Document */,
+				791DE01D1CC5D0B70029C957 /* Tools */,
+				791DE00F1CC5D0B70029C957 /* CodeClass */,
 				791DDFD81CC5C14D0029C957 /* AppDelegate.h */,
 				791DDFD91CC5C14D0029C957 /* AppDelegate.m */,
 				791DDFDB1CC5C14D0029C957 /* ViewController.h */,
@@ -138,6 +160,174 @@
 				791DDFFC1CC5C14D0029C957 /* Info.plist */,
 			);
 			path = FlowerRainGroundUITests;
+			sourceTree = "<group>";
+		};
+		791DE00A1CC5D0B70029C957 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				791DE00B1CC5D0B70029C957 /* BaseCell */,
+				791DE00C1CC5D0B70029C957 /* BaseController */,
+				791DE00D1CC5D0B70029C957 /* BaseModel */,
+				791DE00E1CC5D0B70029C957 /* Factory */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		791DE00B1CC5D0B70029C957 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				791DE0211CC5D1500029C957 /* BaseTableViewCell.h */,
+				791DE0221CC5D1500029C957 /* BaseTableViewCell.m */,
+				791DE0241CC5D1730029C957 /* BaseCollectionViewCell.h */,
+				791DE0251CC5D1730029C957 /* BaseCollectionViewCell.m */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		791DE00C1CC5D0B70029C957 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				791DE02D1CC5D21A0029C957 /* BaseViewController.h */,
+				791DE02E1CC5D21A0029C957 /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		791DE00D1CC5D0B70029C957 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				791DE01E1CC5D12D0029C957 /* BaseModel.h */,
+				791DE01F1CC5D12D0029C957 /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		791DE00E1CC5D0B70029C957 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				791DE0271CC5D1980029C957 /* FactoryCollectionViewCell.h */,
+				791DE0281CC5D1980029C957 /* FactoryCollectionViewCell.m */,
+				791DE02A1CC5D1AB0029C957 /* FactoryTableViewCell.h */,
+				791DE02B1CC5D1AB0029C957 /* FactoryTableViewCell.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		791DE00F1CC5D0B70029C957 /* CodeClass */ = {
+			isa = PBXGroup;
+			children = (
+				791DE0101CC5D0B70029C957 /* Commnuity */,
+				791DE0141CC5D0B70029C957 /* My */,
+				791DE0181CC5D0B70029C957 /* Special */,
+			);
+			path = CodeClass;
+			sourceTree = "<group>";
+		};
+		791DE0101CC5D0B70029C957 /* Commnuity */ = {
+			isa = PBXGroup;
+			children = (
+				791DE0111CC5D0B70029C957 /* Controller */,
+				791DE0121CC5D0B70029C957 /* Model */,
+				791DE0131CC5D0B70029C957 /* View */,
+			);
+			path = Commnuity;
+			sourceTree = "<group>";
+		};
+		791DE0111CC5D0B70029C957 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		791DE0121CC5D0B70029C957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		791DE0131CC5D0B70029C957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		791DE0141CC5D0B70029C957 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				791DE0151CC5D0B70029C957 /* Controller */,
+				791DE0161CC5D0B70029C957 /* Model */,
+				791DE0171CC5D0B70029C957 /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		791DE0151CC5D0B70029C957 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		791DE0161CC5D0B70029C957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		791DE0171CC5D0B70029C957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		791DE0181CC5D0B70029C957 /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				791DE0191CC5D0B70029C957 /* Controller */,
+				791DE01A1CC5D0B70029C957 /* Model */,
+				791DE01B1CC5D0B70029C957 /* View */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		791DE0191CC5D0B70029C957 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		791DE01A1CC5D0B70029C957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		791DE01B1CC5D0B70029C957 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		791DE01C1CC5D0B70029C957 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		791DE01D1CC5D0B70029C957 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +460,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791DE0231CC5D1500029C957 /* BaseTableViewCell.m in Sources */,
+				791DE02F1CC5D21A0029C957 /* BaseViewController.m in Sources */,
+				791DE0261CC5D1730029C957 /* BaseCollectionViewCell.m in Sources */,
+				791DE0291CC5D1980029C957 /* FactoryCollectionViewCell.m in Sources */,
 				791DDFDD1CC5C14D0029C957 /* ViewController.m in Sources */,
+				791DE02C1CC5D1AB0029C957 /* FactoryTableViewCell.m in Sources */,
 				791DDFDA1CC5C14D0029C957 /* AppDelegate.m in Sources */,
+				791DE0201CC5D12D0029C957 /* BaseModel.m in Sources */,
 				791DDFD71CC5C14D0029C957 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +692,7 @@
 				791DE0011CC5C14D0029C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		791DE0021CC5C14D0029C957 /* Build configuration list for PBXNativeTarget "FlowerRainGroundTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +701,7 @@
 				791DE0041CC5C14D0029C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		791DE0051CC5C14D0029C957 /* Build configuration list for PBXNativeTarget "FlowerRainGroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +710,7 @@
 				791DE0071CC5C14D0029C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
